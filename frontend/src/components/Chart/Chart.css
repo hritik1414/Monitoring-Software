@@ -1,0 +1,21 @@
+/* frontend/src/components/Chart/Chart.css */
+.chart-container {
+    padding: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .chart-container.alert {
+    border: 2px solid red;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+  }
+  
+  .alert-banner {
+    background-color: #ff4444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
